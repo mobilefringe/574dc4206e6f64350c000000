@@ -55,7 +55,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('http://greenvalley.mallmaverick.com/api/v2/greenvalley/all.json');
+        setEndPoint('http://chinospectrum.mallmaverick.com/api/v2/chinospectrum/all.json');
     </script>
 </head>
 
