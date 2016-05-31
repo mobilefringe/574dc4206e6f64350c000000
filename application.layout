@@ -142,12 +142,12 @@
             <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
                 <div class="newsletter_div">
-                    <form action="http://mobilefringe.createsend.com/t/d/s/kkuyhl/" method="post" id="newsletter_form">
-                        <input name="cm-kkuyhl-kkuyhl" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required />
+                    <form action="http://mobilefringe.createsend.com/t/d/s/ulhjq/" method="post" id="newsletter_form">
+                        <input name="cm-ulhjq-ulhjq" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required />
                         <button class="newsletter_btn animated_btn">Subscribe</button>
                         <label class="newsletter_label">
                             <input id="newsletter_agree" type="checkbox" />
-                            I agree to receive newsletters from The District at Green Valley Ranch.
+                            I agree to receive newsletters from Chino Spectrum Towne Center.
                         </label>
                         <p class="hidden_now" id="success_subscribe">
                             Thank you for subscribing!
@@ -165,10 +165,10 @@
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
             <p class="footer_text">
-                © Copyright 2016 The District at Green Valley Ranch
+                © Copyright 2016 Chino Spectrum Towne Center
             </p>
             <p class="footer_text">
-                2225 Village Walk Drive, Suite 171, Henderson, NV 89052
+                3801-4097 Grand Ave., Chino CA 91710 
             </p>
             <p class="footer_text">
                 <a href="tel:7025648595">702.564.8595</a> | <a href="#">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
@@ -182,7 +182,7 @@
         <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
-                    © Copyright 2016 The District at Green Valley Ranch
+                    © Copyright 2016 Chino Spectrum Towne Center
                 </p>
                 <p class="footer_text">
                     Powered by <a href="http://mallmaverick.com" target="_blank">Mall Maverick</a>
@@ -193,7 +193,7 @@
                 <img src="http://assets.codecloudapp.com/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt=""> </a>
                 <div>
                     <p class="footer_text">
-                        2225 Village Walk Drive, Suite 171, Henderson, NV 89052
+                        3801-4097 Grand Ave., Chino CA 91710 
                     </p>
                     <p class="footer_text">
                 <a href="tel:7025648595">702.564.8595</a> | <a href="#">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
