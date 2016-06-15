@@ -85,9 +85,9 @@
                     <a href="https://twitter.com/chinospectrum" target="_blank">
                         <span id="social_twitter"></span>
                     </a>
-                    <a href="#" target="_blank">
-                        <span id="social_pinterest"></span>
-                    </a>
+                    <!--<a href="#" target="_blank">-->
+                    <!--    <span id="social_pinterest"></span>-->
+                    <!--</a>-->
                     <a href="https://www.instagram.com/ShopChino/" target="_blank">
                         <span id="social_insta"></span>
                     </a>
