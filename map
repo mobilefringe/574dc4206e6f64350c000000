@@ -9,19 +9,20 @@
             <p class='colored_link'>Find Store</p>
             <div id="stores_container">
                 <script id="stores_template" type="x-tmpl-mustache/text">
-                    <h5 class="stores_map"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></h5>
+                    <h5 class="stores_map"><a class="map_pin_a" href="#" data-value='{{x_coordinate}},{{y_coordinate}},{{id}}'>{{name}}</a></h5>
                 </script>
             </div>
         </div>
         <div class="details_col_9">
-            <div class="" id="mapsvg"></div>
+            <div id="zoom_container">
+                <img id="png_map" class="png_map" alt="center map" src="" />
+                <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
+        	    </div>    
+            </div>
         </div>
     </div>
 </div>
-
-<script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/raphael.js"></script>
-<script type="text/javascript" src="http://cdn.mallmaverick.com/javascripts/mapsvg/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="http://cdn.mallmaverick.com/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
+<script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -31,39 +32,27 @@
     function renderPage(){
          var stores = getStoresList();
         renderStoreList('#stores_container','#stores_template', stores, "stores", "A", "Z");
+        renderStoreList('#landmark_container','#landmark_template', stores, "stores", "A", "Z");
         show_content();
         $('#top_nav_stores').addClass('active_yellow')
-        regions = {};
-        $.each( stores , function( key, val ) {
-            if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-                obj = {};
-                if(val.store_front_url_abs.indexOf('missing.png') > -1){
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
-                }
-                else{
-                    obj["tooltip"] = "<div class='tooltip_div'><img src='" + val.store_front_url_abs + "'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
-                }
-                obj["attr"] = {}
-                regions[val.svgmap_region] = obj
-            }
-        });
-        $('#store_select_container').change(function(e){
-            drop_pin($(this).val())
-        })
-        init_map(regions, 2500, 2000)
         
-        $('.map_pin_a').click(function(e){
-            e.preventDefault();
-            var id = $(this).attr('data-value')
-            map_pin(id)
-        })
+        $("#png_map").attr("src", getPNGMapURL())
+		$('#png_map').smoothZoom({
+		   height: 496,
+		    width: 619,
+		    initial_ZOOM: 26,
+			zoom_MIN: 26,
+			zoom_MAX: 100,
+			responsive: true,
+		    responsive_maintain_ratio: true,
+			zoom_BUTTONS_SHOW : 'YES',
+			pan_BUTTONS_SHOW : 'NO',
+			pan_LIMIT_BOUNDARY : 'NO',
+			button_ALIGN: "top left",
+			container: 'zoom_container'
+		});
+		
+		show_png_pin(".map_pin_a", "#png_map")
         
-        function map_pin(value){
-            map.marksHide();
-            value = value.split('/')
-            if (value[0] != null){
-                drop_pin(value[0], map);    
-            }
-        }
     }
 </script>
