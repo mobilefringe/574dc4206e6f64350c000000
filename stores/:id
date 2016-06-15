@@ -13,7 +13,7 @@
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
                     <p class="colored_link" style="">Address</p>
                     <p class="side_link">
-                        12501 Seal Beach Blvd, Seal Beach, CA 90740
+                        3801-4097 Grand Ave., Chino CA 91710 
                     </p>
                     <a class="main_btn animated_btn" href="{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
