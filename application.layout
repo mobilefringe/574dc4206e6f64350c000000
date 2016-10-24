@@ -58,7 +58,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
+        setEndPoint('//chinospectrum.mallmaverick.com/api/v3/chinospectrum/all.json');
     </script>
 </head>
 
