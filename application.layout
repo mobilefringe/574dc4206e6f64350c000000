@@ -165,7 +165,7 @@
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
             <p class="footer_text">
-                © Copyright 2016 Chino Spectrum Towne Center
+                &copy;  Copyright <span id="current_year" class="current_year"></span> Chino Spectrum Towne Center
             </p>
             <p class="footer_text">
                 3801-4097 Grand Ave., Chino CA 91710 
@@ -182,7 +182,7 @@
         <div class="row hidden_phone">
             <div class="col-md-6">
                 <p class="footer_text">
-                    © Copyright 2017 Chino Spectrum Towne Center
+                    &copy;  Copyright <span id="current_year" class="current_year"></span> Chino Spectrum Towne Center
                 </p>
                 <p class="footer_text">
                     Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
