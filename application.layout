@@ -81,10 +81,10 @@
                 <div class="social_links">
                     <a href="https://www.facebook.com/ChinoSpectrumTowneCenter/?fref=ts" target="_blank">
                         <span id="social_facebook"></span>
-                    </a>
-                    <a href="https://twitter.com/chinospectrum" target="_blank">
-                        <span id="social_twitter"></span>
-                    </a>
+                    <!--</a>-->
+                    <!--<a href="https://twitter.com/chinospectrum" target="_blank">-->
+                    <!--    <span id="social_twitter"></span>-->
+                    <!--</a>-->
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_pinterest"></span>-->
                     <!--</a>-->
