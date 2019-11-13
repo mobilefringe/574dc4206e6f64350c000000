@@ -20,9 +20,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="banner_image_li">
                 {{ #url }}
                 <a href="{{url}}" {{css}} onclick="{{noLink}}" >
+                {{ /url }}
                     <div style="background-image:url({{image_url}})" class="banner_image_div"></div>
                 </a>
-                {{ /url }}
+                
             </li>
         </script>
     </ul>
