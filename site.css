@@ -1,6 +1,9 @@
 $layout_color: #e64645;
 $animation_color: #D2AF10;
 
+body {
+    overflow-x: scroll;
+}
 .accessibility {
     margin: 0;
     height: 0;
