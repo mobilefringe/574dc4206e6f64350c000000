@@ -17,6 +17,9 @@ body {
 .store_initial {
     color: #000;
 }
+.store_nav span {
+    color: #000;
+}
 .newsletter_btn {
     color: #000;
 }
