@@ -18,7 +18,7 @@ $animation_color: #D2AF10;
     }
 }
 .banner_image_div {
-    height: inherit;
+    height: 100%;
 }
 .flex-control-nav {
     display: none;
