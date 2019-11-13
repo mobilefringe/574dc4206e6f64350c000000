@@ -2,7 +2,7 @@ $layout_color: #e64645;
 $animation_color: #D2AF10;
 
 body {
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 .accessibility {
     margin: 0;
