@@ -13,6 +13,9 @@ $animation_color: #D2AF10;
 }
 .footer_text {
     color: #000;
+    a {
+        color: inherit;
+    }
 }
 .flex-control-nav {
     display: none;
