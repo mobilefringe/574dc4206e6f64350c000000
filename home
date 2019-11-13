@@ -19,8 +19,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li>
                 <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    {{ #url }}
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
                     </a>
+                    {{ /url }}
                 </div>
             </li>
         </script>
