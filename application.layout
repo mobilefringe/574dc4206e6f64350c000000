@@ -84,10 +84,10 @@
             </div>
             <div class="nav_container hidden_phone">
                 <div class="social_links">
-                    <a href="https://www.facebook.com/ChinoSpectrumTowneCenter/?fref=ts" target="_blank">
+                    <a href="https://www.facebook.com/ChinoSpectrumTowneCenter/?fref=ts" target="_blank" aria-label="Follow Us on Facebook">
                         <span id="social_facebook"></span>
                     </a>
-                    <a href="https://www.instagram.com/shopchinospectrum" target="_blank">
+                    <a href="https://www.instagram.com/shopchinospectrum" target="_blank" aria-label="Follow Us on Instagram">
                         <span id="social_insta"></span>
                     </a>
                 </div>
