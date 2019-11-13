@@ -166,8 +166,9 @@
             <p class="footer_text">
                 <a href="/pages/chinospectrum-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
             </p>
-          <a href="//www.vestar.com/" target="_blank">
-                <img src="//codecloud.cdn.speedyrails.net/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt=""> </a>
+            <a href="//www.vestar.com/" target="_blank" aria-label="Visit the Vestar website">
+                <img src="//codecloud.cdn.speedyrails.net/sites/574609776e6f645e19040000/image/png/1463672149000/vestar_logo_footer.png" class="vestar_logo" alt="Vestar Property Management Logo">
+            </a>
             <p class="footer_text">
                 Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
             </p>
