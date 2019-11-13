@@ -18,7 +18,7 @@ $animation_color: #D2AF10;
     border-color: $layout_color;
 }
 
-.view_more_btn, .colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
+.colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
     color: $layout_color;
 }
 
