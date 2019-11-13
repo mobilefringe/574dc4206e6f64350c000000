@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_col">
                 <a href="{{url}}">
-                    <img src="{{image_url}}" alt="Feature item" />
+                    <img src="{{image_url}}" alt="{{ name }}" />
                 </a>
             </div>
         </script>
