@@ -143,9 +143,7 @@
                             <input id="newsletter_agree" type="checkbox" required />
                             I agree to receive newsletters from Chino Spectrum Towne Center.
                         </label>
-                        <p class="hidden_now" id="success_subscribe">
-                            Thank you for subscribing!
-                        </p>
+                        <p class="hidden_now" id="success_subscribe">Thank you for subscribing!</p>
                     </form>
                 </div>
             </div>
@@ -192,7 +190,7 @@
                         3801-4097 Grand Ave., Chino CA 91710 
                     </p>
                     <p class="footer_text">
-                        <a href="/pages/chinospectrum-privacy-policy">Privacy Policy | </a> <a href="/jobs">Jobs</a> | Vestar Property
+                        <a href="/pages/chinospectrum-privacy-policy">Privacy Policy</a>&nbsp;|&nbsp;<a href="/jobs">Jobs</a>&nbsp;|&nbsp;Vestar Property
                     </p>
                 </div>
             </div>
