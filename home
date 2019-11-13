@@ -5,7 +5,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MF2VPHF');</script>
 <!-- End Google Tag Manager -->
-
+<h1 class="accessibility">Welcome to Chino Spectrum Towne Center</h1>
 <div class="popup_home hidden_now" id="popup_container">
     <script id="popup_template" type="x-tmpl-mustache/text">
         <a href="{{photo_link}}" {{css}} onclick="{{no_link}}">
