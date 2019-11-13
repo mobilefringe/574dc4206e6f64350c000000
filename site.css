@@ -41,6 +41,10 @@ body {
     background: $animation_color;
 }
 
+.header_banner {
+    background-color: #000;
+}
+
 .stores_banner{
     background-image: url(//codecloud.cdn.speedyrails.net/sites/57f41f2d6e6f647c36030000/image/jpeg/undefined/cstc_1920x150_banner_directory.jpg);
 }
