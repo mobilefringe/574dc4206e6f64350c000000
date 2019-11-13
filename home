@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_col">
-                <a href="{{url}}" aria-label="Click here for + {{ name }}">
+                <a href="{{url}}" aria-label="Click here for {{ name }}">
                     <img src="{{image_url}}" alt="" />
                 </a>
             </div>
