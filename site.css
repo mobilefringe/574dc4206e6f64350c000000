@@ -43,9 +43,7 @@ body {
     color: $layout_color;
 }
 
-.colored_link {
-    color: $animation_color
-}
+
 
 .animated_btn:before{
     background: $animation_color;
