@@ -63,14 +63,14 @@
 <!-- End Hours Template -->
 <!-- Hours Template -->
     <script id="reg_hours_template" type="x-tmpl-mustache/text">
-       
-            <div class="hours_left">
+       <div class="flex_hours">
+           <div class="hours_left">
                 {{day}}
             </div>   
             <div class="hours_right">
                 {{hour_string}}
             </div>
-      
+       </div>
     </script>
 <!-- End Hours Template -->
 
