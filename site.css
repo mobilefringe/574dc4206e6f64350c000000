@@ -39,8 +39,12 @@ body {
     border-color: $layout_color;
 }
 
-.colored_link, .colored_link a, #mm_page_content h1, .mobile_menu li a{
+.colored_link a, #mm_page_content h1, .mobile_menu li a{
     color: $layout_color;
+}
+
+.colored_link {
+    color: #ddd;
 }
 
 .animated_btn:before{
