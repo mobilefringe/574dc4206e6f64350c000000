@@ -44,7 +44,7 @@ body {
 }
 
 .colored_link {
-    color: #ddd;
+    color: $animation_color
 }
 
 .animated_btn:before{
