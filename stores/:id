@@ -52,12 +52,12 @@
 <!-- Hours Template -->
     <script id="reg_hours_template" type="x-tmpl-mustache/text">
         // <tr>
-            <div class="hours_left">
+            <td class="hours_left">
                 {{day}}
-            </div>   
-            <div class="hours_right">
+            </td>   
+            <td class="hours_right">
                 {{hour_string}}
-            </div>
+            </td>
         // </tr>
     </script>
 <!-- End Hours Template -->
