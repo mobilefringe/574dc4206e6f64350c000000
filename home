@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="banner_image_li">
                 {{ #url }}
-                <a href="{{url}}" {{css}} onclick="{{noLink}}" >
+                <a href="{{url}}" {{css}} onclick="{{noLink}}" aria-label="Banner is clickable to go to linked corresponding page." >
                 {{ /url }}
                     <div style="background-image:url({{image_url}})" class="banner_image_div"></div>
                 </a>
