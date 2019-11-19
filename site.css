@@ -55,6 +55,9 @@ body {
 .hours_left {
     width: 150px;
     padding-right: 0;
+    @media (max-width: 375px) {
+        width: 140px;
+    }
 }
 
 
