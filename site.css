@@ -15,7 +15,7 @@ body {
     background: $layout_color;
 }
 
-.details_header {
+.details_header, .main_btn {
     color: #000;
 }
 
