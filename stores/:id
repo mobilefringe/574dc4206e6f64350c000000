@@ -63,14 +63,14 @@
 <!-- End Hours Template -->
 <!-- Hours Template -->
 
-    //   <div class="flex_hours">
-    //       <div class="hours_left">
-    //             {{day}}
-    //         </div>   
-    //         <div class="hours_right">
-    //             {{hour_string}}
-    //         </div>
-    //   </div>
+    <!--//   <div class="flex_hours">-->
+    <!--//       <div class="hours_left">-->
+    <!--//             {{day}}-->
+    <!--//         </div>   -->
+    <!--//         <div class="hours_right">-->
+    <!--//             {{hour_string}}-->
+    <!--//         </div>-->
+    <!--//   </div>-->
 
 <!-- End Hours Template -->
 
