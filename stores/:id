@@ -51,6 +51,7 @@
 
 <!-- Hours Template -->
     <script id="reg_hours_template" type="x-tmpl-mustache/text">
+        <th>Hours</th>
         <tr>
             <td class="hours_left">
                 {{day}}
