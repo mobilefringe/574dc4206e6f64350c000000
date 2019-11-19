@@ -50,9 +50,6 @@
 </div>
 
 <!-- Hours Template -->
-
-<!-- End Hours Template -->
-<!-- Hours Template -->
     <script id="reg_hours_template" type="x-tmpl-mustache/text">
         <div class="flex_hours">
             <div class="hours_left">
