@@ -49,6 +49,9 @@ body {
     color: $layout_color;
 }
 
+.flex_hours {
+    display: flex;
+}
 
 
 .animated_btn:before{
