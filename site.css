@@ -15,6 +15,7 @@ body {
     background: $layout_color;
 }
 
+// override application.css
 .details_header, .main_btn {
     color: #000;
 }
