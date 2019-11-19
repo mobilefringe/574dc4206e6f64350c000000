@@ -8,7 +8,7 @@
         <div class="main_container mobile_padding">
             <div class="details_row">
                 <div class="details_col_3">
-                    <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="details_image" alt="{{title}}'s + 'logo." />
+                    <img src="{{alt_store_front_url}}" style="{{show_main_image}}" class="details_image" alt="{{name}}'s + 'logo." />
                     <p class="colored_link" style="{{phone_show}}">Phone</p>
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
                     <p class="colored_link" style="">Address</p>
@@ -116,7 +116,6 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var store_details = getStoreDetailsBySlug(slug);
-        console.log(store_details)
         renderStoreDetails('#store_details_container','#store_details_template', store_details);
         
         var hour_ids = store_details.store_hours;
